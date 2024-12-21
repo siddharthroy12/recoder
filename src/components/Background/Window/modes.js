@@ -1,6 +1,7 @@
 import "prismjs/components/prism-core";
 import "prismjs/components/prism-bash";
 import "prismjs/components/prism-clike";
+import "prismjs/components/prism-diff";
 import "prismjs/components/prism-javascript";
 import "prismjs/components/prism-python";
 import "prismjs/components/prism-dart";
@@ -26,6 +27,7 @@ require("prismjs/components/prism-php");
 export const LANGUAGE = {
   C: "c",
   "C++": "cpp",
+  "Diff": "diff",
   Java: "java",
   Bash: "bash",
   "Plain Text": "plaintext",
@@ -51,6 +53,7 @@ export const LANGUAGE = {
 export const EXTENTION = {
   c: "c",
   cpp: "cpp",
+  diff: "diff",
   java: "java",
   bash: "sh",
   plaintext: "",
